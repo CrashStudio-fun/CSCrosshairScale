@@ -1,0 +1,12 @@
+{
+  "key.categories.cscrosshairscale": "CSCrosshairScale",
+  "key.category.cscrosshairscale": "CSCrosshairScale",
+  "key.category.cscrosshairscale.cscrosshairscale": "CSCrosshairScale",
+  "key.cscrosshairscale.open_menu": "Открыть меню настроек",
+  "key.cscrosshairscale.increase": "Увеличить прицел",
+  "key.cscrosshairscale.decrease": "Уменьшить прицел",
+  "cscrosshairscale.screen.title": "Настройки CSCrosshairScale",
+  "cscrosshairscale.config.scale": "Размер прицела: %s",
+  "cscrosshairscale.config.reset": "Сбросить к стандартному",
+  "cscrosshairscale.config.preview": "Предпросмотр"
+}

@@ -1,0 +1,12 @@
+{
+  "key.categories.cscrosshairscale": "CSCrosshairScale",
+  "key.category.cscrosshairscale": "CSCrosshairScale",
+  "key.category.cscrosshairscale.cscrosshairscale": "CSCrosshairScale",
+  "key.cscrosshairscale.open_menu": "Open Settings Menu",
+  "key.cscrosshairscale.increase": "Increase Crosshair Scale",
+  "key.cscrosshairscale.decrease": "Decrease Crosshair Scale",
+  "cscrosshairscale.screen.title": "CSCrosshairScale Settings",
+  "cscrosshairscale.config.scale": "Crosshair Scale: %s",
+  "cscrosshairscale.config.reset": "Reset to Default",
+  "cscrosshairscale.config.preview": "Preview"
+}

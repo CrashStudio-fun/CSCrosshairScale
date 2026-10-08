@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "cscrosshairscale",
+  "version": "${version}",
+  "name": "CSCrosshairScale",
+  "description": "Позволяет изменять размер ванильного прицела (больше/меньше) без изменения его формы и текстуры. Есть экран настроек через Mod Menu и поддержка клавиш в настройках.",
+  "authors": [
+      "vvixov"
+  ],
+  "contact": {
+    "homepage": "https://t.me/CrashStudio",
+    "sources": "https://github.com/CrashStudio-fun/CSCrosshairScale",
+    "issues": "https://github.com/CrashStudio-fun/CSCrosshairScale/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/cscrosshairscale/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fun.crashstudio.cscrosshairscale.client.CscrosshairscaleClient"
+    ],
+    "modmenu": [
+      "fun.crashstudio.cscrosshairscale.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "cscrosshairscale.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
